@@ -9,7 +9,7 @@ const fpsControl2 = new FPS();
 function handleLandmarksUpdate(event) {
   // Accede al nuevo valor de landmarks en el detalle del evento
   const detalle = event.detail;
-
+  const detalle2= null;
   // Determina qué variable global actualizar según el tipo de evento
   if (event.type === 'landmarksUpdate') {
     poseLandmarksGlobal = detalle;
