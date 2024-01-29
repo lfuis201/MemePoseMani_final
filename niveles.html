@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Administrador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reloj.css">
+    <link rel="stylesheet" href="css/cambio_color.css">
+    <link rel="stylesheet" href="css/carrito.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/meme_pose_logo.png" alt=""
+                    style="width: 80px; height: auto;"></a>
+            <div id="reloj"></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#ancla-nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="niveles.html">Niveles</a>
+                    </li>
+
+
+                </ul>
+                <div class="form-check form-switch" style="position: absolute; top: 10px; right: 10px;">
+                    <input class="form-check-input" type="checkbox" id="modoOscuroSwitch">
+                    <label class="form-check-label" for="modoOscuroSwitch">
+                        <span class="luna">🌙</span>
+                        <span class="sol">☀️</span>
+                        <span class="visually-hidden">Modo Oscuro</span>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="item" id="Productos">
+
+    </div>
+
+    <div class="container">
+        <div id="root">
+            <div class='box'>
+                <div class='img-box' >
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Ijbiñij</p>
+                    <h2>Momazo from 2023</h2>
+                    <span class='difficulty'>Dificultad: Fácil</span>
+                    <a href='nivel2.html'>Jugar</a>
+
+
+
+                </div>
+            </div>
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Perrito Barbie</p>
+                    <h2>Momazo from 2023</h2>
+                    <span class='difficulty'>Dificultad: Medio</span>
+                    <a href='nivel3.html'>Jugar</a>
+                </div>
+            </div>
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Drácula</p>
+                    <h2>Una vez que drácula baile sabes que estas acabado</h2>
+                    <span class='difficulty'>Dificultad: Imposible</span>
+                    <a href='nivel4.html'>Jugar</a>
+                </div>
+            </div>
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: El Lorax</p>
+                    <h2>Dejenlo Crecer</h2>
+                    <span class='difficulty'>Dificultad: Imposible</span>
+                    <a href='nivel9.html'>Jugar</a>
+                </div>
+            </div>
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Fiesta de las Medusas</p>
+                    <h2>Bob Esponja</h2>
+                    <span class='difficulty'>Dificultad: Imposible</span>
+                    
+                    <a href='nivel6.html'>Jugar</a>
+                </div>
+            </div>
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Chimuelo Dance</p>
+                    <h2>Momazo from 2023</h2>
+                    <span class='difficulty'>Dificultad: Fácil</span>
+                    <a href='nivel5.html'>Jugar</a>
+                </div>
+            </div>
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Ricardo Milos</p>
+                    <h2>Best momazo 4 ever</h2>
+                    <span class='difficulty'>Dificultad: Medio</span>
+                    <a href='nivel7.html'>Jugar</a>
+                </div>
+            </div>
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Baile de Shrek</p>
+                    <h2>Shrek para Siempre</h2>
+                    <span class='difficulty'>Dificultad: Dificil</span>
+                    <a href='nivel8.html'>Jugar</a>
+                </div>
+            </div>
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Gru</p>
+                    <h2>Mi villano Favorito</h2>
+                    <span class='difficulty'>Dificultad: Medio</span>
+                    <a href='nivel8.html'>Jugar</a>
+                </div>
+            </div>
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Gatito Bailarin</p>
+                    <h2>Simplemente Gracioso</h2>
+                    <span class='difficulty'>Dificultad: Fácil</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+            
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de King Leon</p>
+                    <h2>Best pasos in Perú</h2>
+                    <span class='difficulty'>Dificultad: Imposible</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+            
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Thanos</p>
+                    <h2>Tendencias</h2>
+                    <span class='difficulty'>Dificultad: Dificil</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Fortnite</p>
+                    <h2>Tendencias</h2>
+                    <span class='difficulty'>Dificultad: Imposible</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Dame tu cosita </p>
+                    <h2>Simplemente gracioso</h2>
+                    <span class='difficulty'>Dificultad: Medio</span>
+                    
+                </div>
+            </div>
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Quiero chamba</p>
+                    <h2>Monster INC</h2>
+                    <span class='difficulty'>Dificultad: God</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Musculoso La Rebanadora</p>
+                    <h2>Un Show Mas</h2>
+                    <span class='difficulty'>Dificultad: GOD</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Vector</p>
+                    <h2>Mi villano Favorito "Lenguaje de Señas"</h2>
+                    <span class='difficulty'>Dificultad: Fácil</span>
+                    <a href='nivel21.html'>Jugar</a>
+                </div>
+            </div>
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Ardillas por Doquier</p>
+                    <h2>Phineas y Ferb</h2>
+                    <span class='difficulty'>Dificultad: imposible</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Calamardo guapo</p>
+                    <h2>El ser más guapo del mundo</h2>
+                    <span class='difficulty'>Dificultad: Tienes que ser guapo primero</span>
+                    <button class='buy-button'>Jugar</button>
+
+                </div>
+            </div>
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Patricio</p>
+                    <h2>Bob Esponja</h2>
+                    <span class='difficulty'>Dificultad: Medio</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>    
+
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Zohan</p>
+                    <h2>No te metas con el Zohan</h2>
+                    <span class='difficulty'>Dificultad: Imposible</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Bob Esponja</p>
+                    <h2>Bob Esponja</h2>
+                    <span class='difficulty'>Dificultad: Medio</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Spideran</p>
+                    <h2>No importa cuanto lo intentes jamás podrás igualarlo</h2>
+                    <span class='difficulty'>Dificultad: Fácil</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Disney</p>
+                    <h2>Osito PO y sus amigos</h2>
+                    <span class='difficulty'>Dificultad: Fácil</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Ken</p>
+                    <h2>Barbie y Ken</h2>
+                    <span class='difficulty'>Dificultad: Fácil</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Pasos de Gatito gracioso</p>
+                    <h2>Tik tok tendencias</h2>
+                    <span class='difficulty'>Dificultad: Fácil</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>
+
+
+            <div class='box'>
+                <div class='img-box'>
+                    <img class='images' src="img/meme_pose_logo.png"></img>
+                </div>
+                <div class='bottom'>
+                    <p>Título: Los Shapis</p>
+                    <h2>Ultimate steps in Peru, "me gusta hablar incoherencias"</h2>
+                    <span class='difficulty'>Dificultad: Tienes que tener espada</span>
+                    <button class='buy-button'>Jugar</button>
+                </div>
+            </div>    
+
+
+        </div>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="validaciones/api.js"></script>
+    <script src="validaciones/reloj.js"></script>
+    <script src="validaciones/cambio_color.js"></script>
+
+</body>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>Papita Mishima Zaibatsu Corp
+                    </h6>
+                    <p>
+                        Bienvenido a Papita Mishima Zaibatsu Corp, el hogar de la innovación y la creatividad en el
+                        mundo del
+                        entretenimiento interactivo. En nuestra apasionante startup, hemos fusionado la diversión
+                        desenfrenada de
+                        los memes con tecnología de vanguardia para dar vida a "MemePose Challenge", un juego que
+                        revoluciona la
+                        forma en que experimentamos la diversión y la competencia en línea.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <img src="img/meme_pose_logo.png" class="d-block w-100" alt="..."><br>
+                    <p>
+                        <a href="#!" class="text-reset">Nosotros</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        pparedesn@ulasalle.edu.pe
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 51 955426502</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+</html>
